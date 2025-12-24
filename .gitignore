@@ -7,6 +7,7 @@
 *.app
 *.autosave
 *.bak
+*.cmake
 *.core
 *.debug
 *.depend
@@ -60,6 +61,8 @@
 /bin/Debug
 /bin/Release
 /obj/*
+/CMakeFiles/*
+CMakeCache.txt
 Makefile*
 Thumbs.db
 core
