@@ -1,28 +1,58 @@
-<!doctype html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>WySDL3_Minimal</title>
-    <style>body {
-  background-color: black;
-  font-family: arial;
-  margin: 0;
-  padding: none;
-}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+  <TITLE>WySDL3_Minimal</TITLE>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta name="author" content="Wywiwic">
+  <meta name="copyright" content="Wywiwic">
+  <meta name="keywords" content="c, c++, webassembly, libsdl, libsdl3, canvas, 2d, html">
+  <meta name="description" content="A mininal skeleton for a libSDL3 application which allow you an easy testing for GCC on Windows & WebAssembly">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="15 days">
+  <meta name="identifier-url" content="https://www.wywiwic.com/_indev/wyBase">
+  <meta name="reply-to" content="elm@wywiwic.com">
+  <meta name="date-creation-yyyymmdd" content="20251223">
+  <meta name="date-revision-yyyymmdd" content="20260101">
+  <meta name="content-language" content="us">
+  <meta name="language" content="us">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link href="https://github.com/Wywiwic/WySDL3_Minimal" rel="alternate" type="text/html">
+  <STYLE>
+    body {
+      background-color: black;
+      font-family: arial;
+      margin: 0;
+      padding: none;
+    }
 
-.emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
-div.emscripten { text-align: center; }
-div.emscripten_border { border: 1px solid black; }
-/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
-canvas.emscripten { border: 0px none; background-color: black; }
-</style>
-  </head>
-  <body>
-    <div class="emscripten_border">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
-    </div>
-   
-    <script async type="text/javascript" src="WySDL3_Minimal.js"></script>
-  </body>
-</html>
+    .emscripten {
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    div.emscripten {
+      text-align: center;
+    }
+
+    div.emscripten_border {
+      border: 1px solid black;
+    }
+
+    /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+    canvas.emscripten {
+      border: 0px none;
+      background-color: black;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <DIV class="emscripten_border">
+    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+  </DIV>
+
+  <script async type="text/javascript" src="WySDL3_Minimal.js"></script>
+</BODY>
+</HTML>
